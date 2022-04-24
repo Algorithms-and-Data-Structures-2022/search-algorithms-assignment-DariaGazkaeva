@@ -6,6 +6,9 @@ namespace assignment {
 
     // Tips: итеративно пройдитесь по элементам массива
 
+    for (int i = 0; i < arr.size(); i ++) {
+      if (arr[i] == search_elem) return i;
+    }
     return std::nullopt;
   }
 

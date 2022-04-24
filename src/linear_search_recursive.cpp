@@ -15,7 +15,7 @@ namespace assignment {
     if (arr.size() == 0) return std::nullopt;
     if (arr[curr_index] == search_elem) return curr_index;
     if (curr_index == 0) return std::nullopt;
-    search(arr, search_elem, curr_index - 1);
+    return search(arr, search_elem, curr_index - 1);
   }
 
 }  // namespace assignment
